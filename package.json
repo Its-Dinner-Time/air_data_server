@@ -14,7 +14,7 @@
     "build": "nest build",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main",
+    "start:prod": "node dist/main.js",
     "prestart:prod": "rimraf dist && npm run build",
     "web": "npm run start:prod"
   },
