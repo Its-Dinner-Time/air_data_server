@@ -6,6 +6,10 @@
   "private": true,
   "license": "UNLICENSED",
   "type": "commonjs",
+  "engine": {
+    "node": "16.15.1",
+    "npm": "9.6.4"
+  },
   "scripts": {
     "build": "nest build",
     "start:dev": "nest start --watch",
