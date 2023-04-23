@@ -16,7 +16,7 @@
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main.js",
     "prestart:prod": "rimraf dist && npm run build",
-    "web": "node dist/main.js"
+    "start": "node dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
