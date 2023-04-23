@@ -1,7 +1,6 @@
 import { Routes } from '@nestjs/core';
-import { UserModule } from './user/user.module';
 
-const ApiRouteModules = [UserModule];
+const ApiRouteModules = [];
 
 const routes: Routes = [
   {
